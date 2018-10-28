@@ -14,6 +14,6 @@ MIN_TARGET = 0
 MAX_TARGET = 2**256//2**20 - 1
 PERSIST = True
 WORKER_PORT = 2968
-BOOTSTRAP_ADDRS = 'p2p-spb.xyz '.split(' ')
+BOOTSTRAP_ADDRS = 'p2p-spb.xyz p2p-south.xyz p2p-usa.xyz nn.p2pool.site msk.p2pool.site'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-pac'
 VERSION_CHECK = lambda v: v >= 120100
