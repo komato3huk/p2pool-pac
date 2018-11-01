@@ -16,4 +16,4 @@ PERSIST = True
 WORKER_PORT = 2968
 BOOTSTRAP_ADDRS = 'p2p-spb.xyz p2p-south.xyz p2p-usa.xyz nn.p2pool.site msk.p2pool.site'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-pac'
-VERSION_CHECK = lambda v: v >= 120100
+VERSION_CHECK = lambda v: None if 1250100 <= v else 'Paccoin version too old. Upgrade to 12.5.1 or newer!'
